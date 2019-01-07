@@ -219,6 +219,10 @@ public class Frame_penjualan_kaca_mata extends javax.swing.JFrame {
     private void Pilihan1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pilihan1ActionPerformed
 //        // TODO add your handling code here:
         
+        Pilihan2.setSelected(false);
+        Pilihan3.setSelected(false);
+        Pilihan4.setSelected(false);
+        panel_tempat_gambar.removeAll();
         txtSatuan.setText("39000");
         txtNama.setText("Women Outdoor Sunglasses");
         JLabel label_gambar = new JLabel(new ImageIcon("src/gambar/Women Outdoor Sunglasses.jpg"));
@@ -233,6 +237,12 @@ public class Frame_penjualan_kaca_mata extends javax.swing.JFrame {
 
     private void Pilihan2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pilihan2ActionPerformed
         // TODO add your handling code here:
+        
+        Pilihan1.setSelected(false);
+        
+        Pilihan3.setSelected(false);
+        Pilihan4.setSelected(false);
+        panel_tempat_gambar.removeAll();
         
         txtSatuan.setText("360000");
         txtNama.setText("Spy Eyewear Glasses");
@@ -249,6 +259,11 @@ public class Frame_penjualan_kaca_mata extends javax.swing.JFrame {
     private void Pilihan4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pilihan4ActionPerformed
         // TODO add your handling code here:
         
+        Pilihan1.setSelected(false);
+        Pilihan2.setSelected(false);
+        Pilihan3.setSelected(false);
+        
+        panel_tempat_gambar.removeAll();
         txtSatuan.setText("1800000");
         txtNama.setText("Nike 7872AF Kacamata");
         JLabel label_gambar2 = new JLabel (new ImageIcon("src/gambar/Nike 7872AF Kacamata.jpg"));
@@ -264,6 +279,11 @@ public class Frame_penjualan_kaca_mata extends javax.swing.JFrame {
     private void Pilihan3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pilihan3ActionPerformed
         // TODO add your handling code here:
         
+        Pilihan1.setSelected(false);
+        Pilihan2.setSelected(false);
+        
+        Pilihan4.setSelected(false);
+        panel_tempat_gambar.removeAll();
         txtSatuan.setText("3550000");
         txtNama.setText("Porsche Design P'8566");
         JLabel label_gambar3 = new JLabel(new ImageIcon("src/gambar/Porsche Design P'8566.jpg"));
